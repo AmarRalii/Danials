@@ -1,0 +1,32 @@
+
+body{
+    
+    background-color: #cd3434;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about{
+    height: 100vh;
+    backgrounD-color:  #F5F5F5;
+    paDDing-top:50px;
+}
+.about-pic {
+    width: 40%;
+    height: 80vh;
+    background-image: url(../imgs/dotted.jpg);
+    background-position: left;
+    position: relative;
+}
+.about-pic .fpic {
+    width: 87%;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+}
+.hide{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}

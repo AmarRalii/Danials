@@ -1,0 +1,764 @@
+body{
+    
+    background-color: #cd3434;
+    
+}
+h1, h2, h3, h4, h5, h6, .logo {
+    font-family: "Montserrat", sans-serif;
+}
+/* navbar */
+
+.navbar li a{
+    color: #fff;
+    font-size: 16px;
+}
+.logo{
+    padding-right: 30%;
+}
+.navbar{
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999999;
+
+}
+#nav-bar .nav-link{
+    position: relative;
+   
+}
+#nav-bar .nav-link::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+     transition: all 1s;
+}
+#nav-bar .nav-link:hover::after{
+    width: 75%;
+}
+
+/* Home */
+
+.header{
+    background-image:url(../imgs/bg.jpg);
+    background-size: cover;
+    
+    height: 100vh;
+    position: relative;
+}
+.layout{
+    background-color: rgba(0, 0, 0,.6);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+ 
+    
+
+}
+.layout h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+    
+}
+.layout p {
+    font-size: 48px;
+    padding-bottom: 50px;
+    position: relative;   
+}
+.layout p span{
+    font-size: 48px;
+    padding-bottom: 50px;
+ 
+}
+.layout p span::after {
+    content: '';
+    animation: typing 7s infinite ;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    padding:0px 5px;
+    
+}
+@keyframes typing {
+    0% {
+        content: 'I AM |';}
+   
+    1% {
+        content: 'I AM L|';}
+    
+    2% {
+        content: 'I AM La|'; }
+    
+    3% {
+        content: 'I AM Larr|'; }
+   
+    4% {
+        content: 'I AM Larry|'; }
+   
+    5% {
+        content: 'I AM Larry|'; }
+   
+    6% {
+        content: 'I AM Larry D|'; }
+   
+    7% {
+        content: 'I AM Larry Da|'; }
+       
+        8% {
+            content: 'I AM Larry Dan|';
+        }
+       
+        9% {
+            content: 'I AM Larry Dani|';
+        }
+       
+        10% {
+            content: 'I AM Larry Danie|';
+        }
+        
+        11% {
+            content: 'I AM Larry Daniels|';
+        }
+        12% {
+            content: 'I AM Larry Daniel|';
+        }
+        13% {
+            content: 'I AM Larry Danie|';
+        }
+        14% {
+            content: 'I AM Larry Dani|';
+        }
+        15% {
+            content: 'I AM Larry Dan|';
+        }
+        16% {
+            content: 'I AM Larry Da|';
+        }
+        17% {
+            content: 'I AM Larry D|';
+        }
+        18% {
+            content: 'I AM Larry|';
+        }
+        19% {
+            content: 'I AM Larr|';
+        }
+        20% {
+            content: 'I AM Lar|';
+        }
+        21% {
+            content: 'I AM La|';
+        }
+        22% {
+            content: 'I AM L|';
+        }
+        23% {
+            content: 'I AM |';
+        }
+        25% {
+            content: 'I AM |';
+        }
+        27% {
+            content: 'I AM |';
+        }
+        29% {
+            content: 'I AM |';
+        }
+        32% {
+            content: 'I AM |';
+        }
+        35% {
+            content: 'I AM |';
+        }
+        38% {
+            content: 'I AM |';
+        }
+        40% {
+            content: 'I AM |';
+        }
+        43% {
+            content: 'I AM |';
+        }
+        46% {
+            content: 'I AM |';
+        }
+       
+        47% {
+            content: 'I AM D|';
+        }
+        48% {
+            content: 'I AM De|';
+        }
+        49% {
+            content: 'I AM Dev|';
+        }
+        50% {
+            content: 'I AM Deve|';
+        }
+        51% {
+            content: 'I AM Devel|';
+        }
+        52% {
+            content: 'I AM Develo|';
+        }
+        53% {
+            content: 'I AM Develop|';
+        }
+        54% {
+            content: 'I AM Develope|';
+        }
+        55% {
+            content: 'I AM Developer|';
+        }
+        56% {
+            content: 'I AM Develope|';
+        }
+        57% {
+            content: 'I AM Develop|';
+        }
+        58% {
+            content: 'I AM Develo|';
+        }
+        59% {
+            content: 'I AM Devel|';
+        }
+        60% {
+            content: 'I AM Deve|';
+        }
+        61% {
+            content: 'I AM Dev|';
+        }
+        62% {
+            content: 'I AM De|';
+        }
+        63% {
+            content: 'I AM D|';
+        }
+        64% {
+            content: 'I AM |';
+        }
+        65% {
+            content: 'I AM |';
+        }
+        66% {
+            content: 'I AM |';
+        }
+        67% {
+            content: 'I AM |';
+        }
+        68% {
+            content: 'I AM |';
+        }
+        69% {
+            content: 'I AM |';
+        }
+        70% {
+            content: 'I AM |';
+        }
+        71% {
+            content: 'I AM |';
+        }
+        72% {
+            content: 'I AM |';
+        }
+        73% {
+            content: 'I AM |';
+        }
+        74% {
+            content: 'I AM |';
+        }
+       
+        75% {
+            content: 'I AM D|';
+        }
+        76% {
+            content: 'I AM De|';
+        }
+        77% {
+            content: 'I AM Des|';
+        }
+        78% {
+            content: 'I AM Desi|';
+        }
+        79% {
+            content: 'I AM Desig|';
+        }
+        80% {
+            content: 'I AM Design|';
+        }
+        81% {
+            content: 'I AM Designe|';
+        }
+        82% {
+            content: 'I AM Designer|';
+        }
+        83% {
+            content: 'I AM Designe|';
+        }
+        84% {
+            content: 'I AM Design|';
+        }
+        85% {
+            content: 'I AM Desig|';
+        }
+        86% {
+            content: 'I AM Desi|';
+        }
+        87% {
+            content: 'I AM Des|';
+        }
+        88% {
+            content: 'I AM De|';
+        }
+        89% {
+            content: 'I AM D|';
+        }
+        90% {
+            content: 'I AM |';
+        }
+        100% {
+            content: 'I AM |';
+        }
+       
+       
+        
+       
+        
+}
+.brane{
+    position: absolute;
+    bottom:  0;
+    left: 40%;
+    text-align: center;
+    cursor: pointer;
+}
+.brane i{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0,.9);
+    margin: 20px 5px;
+    transition: all .4s;
+}
+.brane i:hover{
+    background-color: #fff;
+    color: #000000;
+}
+/* about */
+
+.about{
+    height: 100vh;
+   
+    paDDing-top:50px;
+}
+.about-pic {
+    width: 40%;
+    height: 80vh;
+    background-image: url(../imgs/dotted.jpg);
+    background-position: left;
+    position: relative;
+}
+.about-pic .fpic {
+    width: 90%;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+}
+.hide{
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    background-color: #ffffff;
+    
+}
+.hide2{
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    background-color: #ffffff;
+    bottom: 0;
+    right: 0;
+    
+}
+.con{
+    width: 90%;
+    background-color: #CDE1F8;
+    border-radius: 5px;
+    
+}
+.progres{
+    width: 95%;
+    height: 25px;
+    background-color:#1C1C1C ;
+    border-radius: 5px;
+}
+.progres1{
+    width: 80%;
+    height: 25px;
+    background-color:#1C1C1C ; border-radius: 5px;
+}
+.progres2{
+    width: 90%;
+    height: 25px;
+    background-color:#1C1C1C ; border-radius: 5px;
+}
+.con  span{
+    margin-left: 75%;
+}
+.con  .nin{
+    margin-left: 70%;
+}
+.about-me p{
+    font-size: 15px;
+}
+button{
+    background-color: #1C1C1C;
+    color: #fff;
+    transition: all .5s;
+    
+}
+button:hover{
+    background-color: #fff;
+    color: #1C1C1C;
+}
+.button1{
+    background-color: #ffffff;
+    color: #1C1C1C;
+    transition: all .5s;
+}
+.button1:hover{
+    background-color: #1C1C1C;
+    color: #fff;
+}
+/* Services */
+
+
+.service{
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    height: 150vh;
+}
+.service h2{
+    font-size: 60px;
+}
+
+
+.serve{
+    height: 50vh;
+
+}
+.serve h3{
+    padding-top:  80px;
+}
+.icon{
+  
+    width: 80px;
+    height: 80px;
+    margin-top: 50px;
+    background-color: #F5F5F5;
+    transition: all .5s;
+
+}
+.icon{
+    color: black;
+}
+.serve:hover .icon{
+    background-color: #1C1C1C;
+    color: rgb(255, 255, 255);
+}
+
+.service h2 {
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+}
+
+.service h2:after {
+    content: "";
+    width: 100%;
+    height: 40px;
+    background-image: url(../imgs/dotted.jpg);
+    background-repeat: repeat;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    z-index: -1;
+    opacity: .5;
+}
+/* layout */
+
+.over-lay1{
+    margin-top: 10%;
+    height: 10vh;
+   
+
+}
+.testi1{
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+}
+
+.testi1 img{
+    width: 150px;
+    height: 150px;
+}
+.iron i{
+    width: 60px;
+    height: 60px;
+}
+.iron{
+    padding: 0px 50px;
+}
+
+/* Work */
+
+.work{
+    background-color: #ffffff;
+    height: 170vh;
+    
+}
+#work .nav-item,button .nav-link{
+    border: 0;
+    color: black;
+}
+
+.work-layer{
+    background-color: #fff;
+    top: 3%;
+    left: 3%;
+    right: 3%;
+    bottom: 3%;
+    opacity: 0;
+    transition: all 1s;
+}
+.work-item:hover .work-layer{
+    opacity: 1;
+}
+.work h1 {
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+}
+
+.work h1:after {
+    content: "";
+    width: 100%;
+    height: 40px;
+    background-image: url(../imgs/dotted.jpg);
+    background-repeat: repeat;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    z-index: -1;
+    opacity: .5;
+}
+.nav li{
+    position: relative;
+}
+.nav li::after{
+    content: '';
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    transition: all .5s;
+    background-color: #000000;
+
+}
+.nav li:hover::after{
+    width: 60%;
+}
+.divo i{
+    background-color: #000000;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+.divo i:hover{
+    background-color: #fff;
+    color: #000000;
+}
+/* clints */
+.clints{
+    background-color:#F7F7F7 ;
+}
+.clints h2 {
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+}
+
+.clints h2:after {
+    content: "";
+    width: 100%;
+    height: 40px;
+    background-image: url(../imgs/dotted.jpg);
+    background-repeat: repeat;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    z-index: -1;
+    opacity: .5;
+}
+.clints img{
+    width: 100px;
+    height: 100px;
+}
+#clint .carousel-indicators [data-bs-target]{
+    background-color: #5B5B5B;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/* Blog */
+.Blog{
+    height: 125vh;
+    margin-top: 20%;
+    background-color: #F7F7F7;
+    
+}
+
+.lair{
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    bottom:  25%;
+    background-color: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    transition: all  .5s;
+}
+.card:hover .lair{
+   opacity: 1;
+   transform: rotateY(360deg);
+
+}
+.lair i{
+    color: #1C1C1C;
+    width: 35px;
+    height: 35px;
+    font-size: 36px;
+    background-color: #fff;
+    transition: all 1s ;
+    
+}
+.card{
+    overflow: hidden;
+}
+.lair i:hover{
+    color: #ffffff;
+    background-color: #1C1C1C;
+}
+.card img{
+    transition: all .5s;
+}
+.card-pic:hover img{
+    transform: scale(1.2);
+}
+
+.card-body{
+    background-color: #5B5B5B;
+}
+.Blog h1 {
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+    padding-top: 5%;
+}
+
+.Blog h1:after {
+    content: "";
+    width: 100%;
+    height: 40px;
+    background-image: url(../imgs/dotted.jpg);
+    background-repeat: repeat;
+    background-color: transparent;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    z-index: -1;
+    opacity: .5;
+}
+
+/* Contact */
+
+.contact{
+    height: 100vh;
+    
+}
+.add{
+    width: 30%;
+}
+.add i{
+    width: 60px;
+    height: 60px;
+    background-color: #f4f4f4;
+    padding-top: 5px;
+    transition: all 1s;
+}
+.add:hover i{
+    color: #fff;
+    background-color: #1C1C1C;
+}
+.iner{
+    width: 45%;
+}
+.last-one{
+    width: 13%;
+}
+.contact h2 {
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+}
+
+.contact h2:after {
+    content: "";
+    width: 100%;
+    height: 40px;
+    background-image: url(../imgs/dotted.jpg);
+    background-repeat: repeat;
+    background-color: transparent;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    z-index: -1;
+    opacity: .5;
+}
+
+
+
+
+.footer{
+    height: 10%;
+    background-color: #1C1C1C;
+}
